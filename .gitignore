@@ -1,0 +1,15 @@
+# ignore Node.js generated files
+node_modules/
+package-lock.json
+
+# ignore swap files from Vim
+*.swp
+
+# ignore environment variable setup
+.env
+
+# 
+*.backup
+
+# ignore additional testing folders
+assets/images/results/

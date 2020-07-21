@@ -1,0 +1,31 @@
+html
+    head
+        title Paramour | Generate
+        include components/metadata.pug
+        link(rel='stylesheet' href='/bundled/bundled.min.css')
+
+        // Google Analytics
+        script(async src='https://www.googletagmanager.com/gtag/js?id=UA-149930431-6')
+        script
+            | window.dataLayer = window.dataLayer || [];
+            | function gtag(){dataLayer.push(arguments);}
+            | gtag('js', new Date());
+            | gtag('config', 'UA-149930431-6');
+
+    body(data-barba='wrapper')
+        main(data-barba='container' data-barba-namespace='generate')
+            .center.spacefix
+                p 
+                    | The survey has generated your image. Kindly save it, you can use the image and ask from others their own
+                    | image to compute your compatibility and chemistry on the matchmaking page.
+                p.center-text
+                    img(src=qrCode style='width: 300px')
+                p.center-text
+                    a(href=qrCode download=codename+'.jpg' style='margin-right: 10px').material Save QR Code
+                    a(href='/match').material Go to matchmaking
+
+        section.loading.hidden
+            p.credits
+                | made by <span style="color: red; background-color: white">ralphlouisgopez</span>
+    script(src='/bundled/bundled.min.js')
+    

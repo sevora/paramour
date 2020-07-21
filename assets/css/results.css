@@ -1,0 +1,36 @@
+.score-group {
+    text-align: center;
+}
+
+.score-group .score {
+    font-size: 4rem;
+}
+
+.score-group .total {
+    font-size: 2rem;
+}
+
+.score-group .progress-bar {
+    width: 300px;
+}
+
+.codename {
+    color: #666;
+    background: #f4f4f4;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 2px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+     user-select: none; 
+}
+
+@media (min-width: 768px) { 
+    .score-group .progress-bar {
+        width: 600px;
+    }
+}

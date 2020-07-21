@@ -1,0 +1,97 @@
+html
+    head
+        title Paramour | New
+        include components/metadata.pug
+        link(rel='stylesheet' href='/bundled/bundled.min.css')
+
+        // Google Analytics
+        script(async src='https://www.googletagmanager.com/gtag/js?id=UA-149930431-6')
+        script
+            | window.dataLayer = window.dataLayer || [];
+            | function gtag(){dataLayer.push(arguments);}
+            | gtag('js', new Date());
+            | gtag('config', 'UA-149930431-6');
+
+    body(data-barba='wrapper')
+        main(data-barba='container' data-barba-namespace='new')
+            header.header
+                p.progress-text 
+                .progress-bar
+                    .bar
+            form(method='POST' action='/generate')
+                .question-group.active
+                    .center.spacefix
+                         p Answer the following questions as honestly as possible to get accurate results when finding out chemistry and compatibility level with others.
+
+                // basic information
+                .question-group
+                    .center
+                        .material
+                            input(type='text' id='fullname' name='fullname' maxlength='24' required)
+                            span.highlight
+                            span.bar
+                            label(for='fullname') Full Name
+                        .material
+                            input(type='text' id='codename' name='codename' maxlength='24' required)
+                            span.highlight
+                            span.bar
+                            label(for='fullname') Code Name
+                       
+                // hobby list rendering
+                .question-group
+                    .center.spacefix
+                        p Select as much tags possible that match your interests or hobbies with yourself and from an ideal partner.
+                        select(name='hobbies' multiple='multiple' placeholder='Select your hobbies...' required)
+                            each category, hobby in hobbies
+                                option(value=category + '-' + hobby)= hobby
+
+                // value list rendering
+                each value, index in values
+                    .question-group
+                        .center.spacefix
+                            p Choose the word that best describes you:
+                            .binary-toggle
+                                input(type='radio' name='values-'+index value=value[0] id=value[0] required)
+                                label(for=value[0])= value[0]
+                                input(type='radio' name='values-'+index value=value[1] id=value[1])
+                                label(for=value[1])= value[1]
+
+                // intellect test rendering
+                each type, question in intellect 
+                    .question-group
+                        .center.spacefix
+                            p= question + '.'
+                            - var score = 1;
+                            - var rating = ['Strongly Disagree', 'Disagree', 'Neutral', 'Agree', 'Strongly Agree'];
+                            while score <= 5
+                                label.multi-toggle
+                                    input(type='radio' name=type value=score required)
+                                    span= rating[score-1]
+                                - score++
+
+                // mbti test
+                - var mbtiIndex = 0;
+                each choices, question in mbti
+                    .question-group
+                        .center.spacefix
+                            p= question + ':'
+                            .binary-toggle
+                                each value, choice in choices
+                                    input(type='radio' name='mbti-'+mbtiIndex value=value id=value+'-'+mbtiIndex required)
+                                    label(for=value+'-'+mbtiIndex)= choice
+                    - mbtiIndex++
+
+                .question-group
+                    .center.spacefix
+                        p The more genuine your answers are, the more accurate it will be when finding out your compatibility and chemistry level with others.
+                        button(type='submit').material Done with the survey
+                         
+            footer.navigation
+                .fab-group
+                     a.fab(id='previous' style='cursor:pointer' onclick) &swarr;&#xFE0E;
+                     a.fab(id='next' style='cursor:pointer' onclick) &nearr;&#xFE0E;
+        section.loading.hidden
+            p.credits
+                | made by <span style="color: red; background-color: white">ralphlouisgopez</span>
+        script(type='text/javascript' src='/bundled/bundled.min.js')
+

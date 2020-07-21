@@ -1,0 +1,44 @@
+html
+    head
+        title Paramour | Match
+        include components/metadata.pug
+        link(rel='stylesheet' href='/bundled/bundled.min.css')
+
+        // Google Analytics
+        script(async src='https://www.googletagmanager.com/gtag/js?id=UA-149930431-6')
+        script
+            | window.dataLayer = window.dataLayer || [];
+            | function gtag(){dataLayer.push(arguments);}
+            | gtag('js', new Date());
+            | gtag('config', 'UA-149930431-6');
+
+    body(data-barba='wrapper')
+        main(data-barba='container' data-barba-namespace='match')
+            header.header
+                    p.tip.hidden
+                        | Upload two generated images from the survey results. The server will compute the chemistry and compatibility
+                        | based on several factors revolving around the survey.
+
+            form(method='POST' action='/results' id='match' encType='multipart/form-data')
+                .center
+                    .file-input
+                        input(name='partner one' id='partner one' type='file' accept='.jpg,.jpeg,.png' required)
+                        label(for='partner one')
+                            span Select Image One
+                            span(class='icon') +
+                    .file-input
+                        input(name='partner two' id='partner two' type='file' accept='.jpg,.jpeg,.png' required)
+                        label(for='partner two')
+                            span Select Image Two
+                            span(class='icon') +
+                
+            footer.navigation
+                    .fab-group
+                         button.fab(id='help' onclick) &quest;&#xFE0E;
+                         button.fab(type='submit' form='match') &check;&#xFE0E;
+
+        section.loading.hidden
+            p.credits
+                | made by <span style="color: red; background-color: white">ralphlouisgopez</span>
+    script(src='/bundled/bundled.min.js')
+ 

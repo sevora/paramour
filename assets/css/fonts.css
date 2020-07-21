@@ -1,0 +1,13 @@
+/*
+ * Stylesheet for every page that would require fonts
+ * Basically almost every page
+ */
+@font-face {
+    font-family: Coolvetica;
+    src: url('fonts/Coolvetica.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('fonts/Roboto.ttf');
+}

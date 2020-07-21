@@ -1,0 +1,185 @@
+{
+    "hobbies": {
+        "arts and crafts": [
+            "animation",
+            "calligraphy",
+            "origami",
+            "knitting",
+            "crochet",
+            "filmmaking",
+            "painting",
+            "drawing",
+            "paper mache",
+            "woodworking",
+            "sculpting",
+            "soap making",
+            "architecture",
+            "tattoo",
+            "graffiti",
+            "floristry"
+        ],
+        "games": [
+            "poker",
+            "chess",
+            "jigsaw puzzles",
+            "rubiks cube",
+            "ping pong",
+            "table tennis",
+            "billiards",
+            "mahjong",
+            "dominoes"
+        ],
+        "music": [
+            "rapping",
+            "singing",
+            "composing music",
+            "beat box",
+            "piano",
+            "keyboard",
+            "opera",
+            "musicals",
+            "mashups",
+            "western songs",
+            "pop songs",
+            "jazz",
+            "blues",
+            "metal songs"
+        ],
+        "performing arts": [
+            "ballet",
+            "breakdancing",
+            "line dancing",
+            "pole dancing",
+            "waltz",
+            "salsa",
+            "tango",
+            "juggling",
+            "acting",
+            "magic tricks",
+            "comedy"
+        ],
+        "spiritual and mental": [
+            "astronomy",
+            "reading",
+            "poetry",
+            "tarot",
+            "massage",
+            "writing"
+        ],
+        "foods and drinks": [
+            "baking",
+            "bartending",
+            "beer tasting",
+            "sake tasting",
+            "sushi making",
+            "cooking",
+            "tea drinking",
+            "coffee roasting",
+            "wine tasting"
+        ],
+        "sports and outdoors": [
+            "archery",
+            "bowling",
+            "boxing",
+            "cycling",
+            "golf",
+            "camping",
+            "parkour",
+            "taekwando",
+            "karate",
+            "kung fu",
+            "motorcycle stunts",
+            "go karts",
+            "surfing",
+            "skydiving",
+            "scuba diving",
+            "fishing",
+            "swimming",
+            "fencing",
+            "photography",
+            "basketball"
+        ],
+        "technology": [
+            "programming",
+            "blogging",
+            "vlogging",
+            "video games",
+            "video editing",
+            "photo editing"
+        ],
+        "culture": [
+            "anime",
+            "korean pop"
+        ]
+    },
+    "values": [
+        ["going-with-the-flow", "ambitious"],
+        ["aloof", "friendly"],
+        ["calm", "temperemental"],
+        ["conventional", "unconventional"],
+        ["critical", "lenient"],
+        ["curious", "cautious"],
+        ["down-to-earth", "imaginative"],
+        ["frank", "secretive"],
+        ["reserved", "affectionate"],
+        ["conservative", "liberal"]
+    ],
+    "intellect": {
+        "naturalistic": [
+            "You feel the need to protect the environment",
+            "You enjoy joining programs to improve the environment",
+            "You like planting and caring for a garden",
+            "You enjoy fishing, bushwalking and bird-watching",
+            "You love working with plants and animals"
+        ],
+        "musical": [
+            "You can pick out different instruments when you listen to a piece of music",
+            "You enjoy listening to a wide variety of music",
+            "You can easily identify an off-key note when you hear one",
+            "You find it easy to engage in musical activities",
+            "You can remember pieces of music easily"
+        ],
+        "logical-mathematical": [
+            "You can easily utilize maths in solving problems whenever necessary",
+            "You enjoy playing brainteasers and logic puzzles",
+            "You like to find out the answers to \"why\" and \"how\" questions",
+            "You are able to quickly grasp cause and effect relationships",
+            "You have a great ability to focus on the work that needs to be done"
+        ],
+        "interpersonal": [
+            "You work best when interacting with a lot of people",
+            "You enjoy team sports rather than individual sports",
+            "You prefer group activities rather than ones that need to be done alone",
+            "You enjoy learning about different cultures and traditions",
+            "You are into many social events like parties"
+        ],
+        "intrapersonal": [
+            "You only have a few special and close friends",
+            "You have strong opinions about controversial issues",
+            "You work best when the activity is self-paced",
+            "You are not easily influenced by other people",
+            "You often have questions concerning values and beliefs"
+        ],
+        "bodily-kinesthetic": [
+            "You enjoy participating in active sports",
+            "Your body is well co-ordinated",
+            "You enjoy performing with the use of your body",
+            "You prefer to be physically involved rather than thinking and observing",
+            "You understand best when you perform the task"
+        ],
+        "linguistic": [
+            "You can easily use different words to express yourself",
+            "You enjoy reading and writing a lot",
+            "You enjoy participating in debates and/or discussions",
+            "You find it easy to explain to others",
+            "You tend to remember things verbatim"
+        ],
+        "spatial": [
+            "You understand the nature of colors and you are an artist yourself",
+            "You have a good sense of direction every time",
+            "You can read charts and maps easily",
+            "You  can anticipate the moves and consequences in a game plan",
+            "You can picture scenes in your head perfectly"
+        ]
+    }
+}

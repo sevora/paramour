@@ -1,0 +1,164 @@
+{
+    "questions": {
+        "At a party do you": {
+            "Interact with many, including strangers": "extraverted",
+            "Interact with a few, known to you": "introverted"
+        },
+        "At parties do you": {
+            "Stay late, with increasing energy": "extraverted",
+            "Leave early with decreased energy": "introverted"
+        },
+        "In your social groups do you": {
+            "Keep abreast of other's happenings": "extraverted",
+            "Get behind on the news": "introverted"
+        },
+        "In phoning do you": {
+            "Rarely question that it will all be said": "extraverted",
+            "Rehearse what you'll say": "introverted"            
+        },
+        "In company do you": {
+            "Initiate conversation": "extraverted",
+            "Wait to be approached": "introverted"
+        },
+        "Does new and non-routine interaction with others": {
+            "Stimulate and energize you": "extraverted",
+            "Tax your reserves": "introverted"
+        },
+        "Do you prefer": {
+            "Many friends with brief contact": "extraverted",
+            "A few friends with lengthy contact": "introverted"
+        },
+        "Do you": {
+            "Speak easily and at length with strangers": "extraverted",
+            "Find little to say to strangers": "introverted"
+        },
+        "When the phone rings do you": {
+            "Hasten to get it first": "extraverted",
+            "Hope someone else will answer": "introverted"
+        },
+        "Are you more inclined to be": {
+            "Easy to approach": "extraverted",
+            "Somewhat reserved": "introverted"
+        },
+        "Are you more": {
+            "Realistic than speculative": "sensation",
+            "Speculative than realistic": "intuition"
+        },
+        "Are you more attracted to": {
+            "Sensible people": "sensation",
+            "Imaginative people": "intuition"
+        },
+        "In doing ordinary things are you more likely to": {
+            "Do it the usual way": "sensation",
+            "Do it your own way": "intuition"
+        },
+        "Facts ": {
+            "Speak for themselves": "sensation",
+            "Illustrate principles": "intuition"
+        },
+        "Do you go more by": {
+            "Facts": "sensation",
+            "Principles": "intuition"
+        },
+        "Are you more likely to trust your": {
+            "Experience": "sensation",
+            "Hunch": "intuition"
+        },
+        "Do you prize more in yourself": {
+            "A strong sense of reality": "sensation",
+            "A vivid imagination": "intuition"
+        },
+        "Are you more interested in": {
+            "What is actual": "sensation",
+            "What is possible": "intuition"
+        },
+        "Are you more likely to": {
+            "See how others are useful": "sensation",
+            "See how others see": "intuition"
+        },
+        "Are you much more interested in": {
+            "Production and Distribution": "sensation",
+            "Design and Research": "intuition"
+        },
+        "Are you more impressed by": {
+            "Principles": "thinking",
+            "Emotions": "feeling"
+        },
+        "Are you more often": {
+            "A cool-headed person": "thinking",
+            "A warm-hearted person": "feeling"
+        },
+        "In making decisions do you feel more comfortable with": {
+            "Standards": "thinking",
+            "Feelings": "feeling"
+        },
+        "Which is more of a compliment": {
+            "You are a very logical person": "thinking",
+            "You are a very sentimental person": "feeling"
+        },
+        "Which person is more to be complimented, one of": {
+            "Clear reason": "thinking",
+            "Strong feeling": "feeling"
+        },
+        "Which seems the greater error": {
+            "To be too passionate": "thinking",
+            "To be too objective": "feeling"
+        },
+        "Is it worse to be": {
+            "Unjust": "thinking",
+            "Merciless": "feeling"
+        },
+        "Which rules you more": {
+            "Your head": "thinking",
+            "Your heart": "feeling"
+        },
+        "Are you inclined to be": {
+            "Fair-minded": "thinking",
+            "Sympathetic": "feeling"
+        },
+        "Do you see yourself as basically": {
+            "Hard-headed": "thinking",
+            "Soft-hearted": "feeling"
+        },
+        "Are you": {
+            "Punctual": "judging",
+            "Leisurely": "perceiving"
+        },
+        "Do you want things": {
+            "Settled and decided": "judging",
+            "Unsettled and undecided": "perceiving"
+        },
+        "Should one usually let events occur": {
+            "By careful selection and choice": "judging",
+            "Randomly and by chance": "perceiving"
+        },
+        "Which is more admirable": {
+            "The ability to organize and be methodical": "judging",
+            "The ability to adapt and make do": "perceiving"
+        },
+        "Is it preferable mostly to": {
+            "Make sure things are arranged": "judging",
+            "Just let things happen": "perceiving"
+        },
+       "Do you tend to choose": {
+            "Rather carefully": "judging",
+            "Somewhat impulsively": "perceiving"
+       },
+       "Does it bother you more having things": {
+            "Incomplete": "judging",
+            "Completed": "perceiving"
+       },
+       "Would you say you are more": {
+            "Serious and determined": "judging",
+            "Easy-going": "perceiving"
+       },
+       "Do you tend to look for": {
+            "The orderly": "judging",
+            "Whatever turns up": "perceiving"
+       },
+       "In relationships should most things be": {
+            "Re-negotiable": "judging",
+            "Random and circumstantial": "perceiving"
+       }
+    }
+}

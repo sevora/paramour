@@ -1,0 +1,36 @@
+html
+    head
+        title Paramour | Results
+        include components/metadata.pug
+        link(rel='stylesheet' href='/bundled/bundled.min.css')
+
+        // Google Analytics
+        script(async src='https://www.googletagmanager.com/gtag/js?id=UA-149930431-6')
+        script
+            | window.dataLayer = window.dataLayer || [];
+            | function gtag(){dataLayer.push(arguments);}
+            | gtag('js', new Date());
+            | gtag('config', 'UA-149930431-6');
+
+    body(data-barba='wrapper')
+        main(data-barba='container' data-barba-namespace='results')
+            .center
+                .score-group
+                    span.score #{finalScore}
+                    span.total /100
+                    .progress-bar
+                        .bar(style='width:'+finalScore+'%')
+                p
+                    | The overall result of <span class="codename" data-hidden=#{nameOne}>#{codeOne}</span> and <span class="codename" data-hidden=#{nameTwo}>#{codeTwo}</span>
+                    | based on their chemistry and compatibility. Specifically, the chemistry is #{chemistryScore}% and compatibility
+                    | is #{mbtiScore}%
+            footer.navigation
+                .fab-group
+                     a.fab(href='/new') +&#xFE0E;&#xFE0E;
+                     a.fab(href='/match') &#10084;&#xFE0E;
+
+        section.loading.hidden
+             p.credits
+                 | made by <span style="color: red; background-color: white">ralphlouisgopez</span>
+    script(src='/bundled/bundled.min.js')
+ 
